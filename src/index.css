@@ -1,2 +1,15 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rubik-microbe-font {
+  font-family: "Rubik Microbe", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
