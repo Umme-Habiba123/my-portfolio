@@ -9,7 +9,7 @@ const projects = [
     image: "https://i.ibb.co.com/n8PS6FTw/f-2.webp",
     tech: ["React", "Firebase", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
     link: "https://inspiring-piroshki-a70fe3.netlify.app/", 
-    github: "https://github.com/Umme-Habiba123/Assignment-10-client-site", 
+    github: "https://github.com/Umme-Habiba123/Assignment-10-client-site"  , 
   },
   {
     title: "LandVista",
