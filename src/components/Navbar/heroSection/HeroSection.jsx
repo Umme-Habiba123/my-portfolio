@@ -1,14 +1,40 @@
 import React from "react";
 import { ArrowRight, Download } from "lucide-react";
-import profile from '../../../assets/tayba.png'
+import profile from "../../../assets/tayba.png";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
+  // Animation Variants
+  const leftVariant = {
+    hidden: { opacity: 0, x: -100 },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: { duration: 1, ease: "easeOut" },
+    },
+  };
+
+  const rightVariant = {
+    hidden: { opacity: 0, x: 100 },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: { duration: 1, ease: "easeOut", delay: 0.3 },
+    },
+  };
+
   return (
-    <section className="min-h-screen flex items-center bg-[#0e0f14] text-white pt-32 pb-16  bg-gradient-to-b from-[#0e0f14] via-[#1a1c23] to-[#ff9447]/10">
+    <section className="min-h-screen flex items-center bg-[#0e0f14] text-white pt-32 pb-16 bg-gradient-to-b from-[#0e0f14] via-[#1a1c23] to-[#ff9447]/10">
       <div className="w-5/6 mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-10 px-6 md:px-20">
         
         {/* Left Content */}
-        <div className="space-y-6 mt-10 md:mt-0 text-center md:text-left md:w-1/2">
+        <motion.div
+          variants={leftVariant}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          className="space-y-6 mt-10 md:mt-0 text-center md:text-left md:w-1/2"
+        >
           <p className="text-orange-400 font-medium flex items-center justify-center md:justify-start gap-2">
             👋 Hello, I'm
           </p>
@@ -22,7 +48,7 @@ const HeroSection = () => {
           </h2>
 
           <p className="text-gray-400 leading-relaxed text-sm sm:text-base">
-            I'm a passionate React Developer who loves turning ideas into 
+            I'm a passionate React Developer who loves turning ideas into
             beautiful and functional web applications. <br />
             I focus on clean code, smooth user experiences, and modern design.
           </p>
@@ -30,7 +56,7 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row items-center md:items-start gap-4 justify-center md:justify-start">
             <a
               href="#projects"
-              className="flex items-center gap-2 bg-[#FF9447] text-black  hover:bg-orange-600 px-5 py-3 rounded-xl font-bold transition-all"
+              className="flex items-center gap-2 bg-[#FF9447] text-black hover:bg-orange-600 px-5 py-3 rounded-xl font-bold transition-all"
             >
               View My Work <ArrowRight className="w-4 h-4" />
             </a>
@@ -44,18 +70,23 @@ const HeroSection = () => {
               Download Resume
             </a>
           </div>
-        </div>
+        </motion.div>
 
         {/* Right Image */}
-        <div className="relative md:w-1/2 flex justify-center">
+        <motion.div
+          variants={rightVariant}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          className="relative md:w-1/2 flex justify-center"
+        >
           <div className="absolute -inset-4 bg-orange-500/20 blur-3xl rounded-3xl"></div>
           <img
             src={profile}
             alt="Mahiya Rehman"
             className="relative rounded-3xl lg:w-[400px] w-[280px] sm:w-[340px] md:w-[400px] object-cover shadow-2xl"
           />
-        </div>
-
+        </motion.div>
       </div>
     </section>
   );

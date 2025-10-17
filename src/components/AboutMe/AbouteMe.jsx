@@ -3,7 +3,7 @@ import { Code, Palette, Rocket } from "lucide-react";
 
 const AboutMe = () => {
   return (
-    <section className="bg-[#1e1f22]  text-white py-20 px-6 md:px-20">
+    <section className="bg-[#0f1116]  text-white py-20 px-6 md:px-20">
       {/* Title */}
      <div className=" ">
          <div className="text-center max-w-3xl mx-auto mb-12">
