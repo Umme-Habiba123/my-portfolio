@@ -54,6 +54,11 @@ Here’s what I work with every day:
 
 ---
 
+## 🖼 Screenshot
+![Flexora Screenshot](https://i.ibb.co.com/FLmTd1QK/Screenshot-2025-10-17-141231.png)
+> Replace with `./screenshot.png` for a local screenshot file.
+
+
 ## 🏗 Current Focus
 
 🌱 I’m currently learning **Next.js**, **TypeScript**, and **advanced backend development** to become a complete MERN stack developer.
