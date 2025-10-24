@@ -31,7 +31,7 @@ const projectData = {
   },
   snowcravebox: {
     title: "SnowCraveBox",
-    image: "https://i.ibb.co.com/HDwdS21L/Screenshot-2025-10-24-125324.png",
+    image: "https://i.ibb.co.com/HDwdS21L/Screenshot-2025-10-24-125324.png" ,
     tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
     description:
       "SnowCraveBox is an online pet shop platform where users can browse and purchase pet food, accessories, and care products securely with a smooth checkout experience.",
