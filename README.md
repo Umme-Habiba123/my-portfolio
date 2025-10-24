@@ -7,7 +7,7 @@ This site reflects my dedication to clean design, modern UI, and powerful React-
 
 ##  Live Demo  
 🔗 [ https://my-portfolio-b9a85c.netlify.app/ ] 
-*(Replace this with your live link)*
+
 
 ---
 
