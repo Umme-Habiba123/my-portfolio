@@ -1,16 +1,89 @@
-# React + Vite
+#  My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my **personal portfolio website**, built to showcase my projects, skills, and journey as a web developer.  
+This site reflects my dedication to clean design, modern UI, and powerful React-based development.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Live Demo  
+🔗 [Visit My Portfolio](https://your-portfolio-link.netlify.app/)  
+*(Replace this with your live link)*
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  About This Project  
 
-## Expanding the ESLint configuration
+This is my portfolio website where I share my work, skills, and contact information.  
+Main sections include:
+- 🏠 **Home:** Introduction and hero section  
+- 💼 **Projects:** My featured projects with details  
+- 🧠 **Skills:** Technologies I know and use  
+- 📞 **Contact:** Contact info and social links  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Technologies Used  
+
+| Category | Tools / Libraries |
+|-----------|------------------|
+| **Frontend** | React.js, React Router, Tailwind CSS |
+| **Animations** | Framer Motion, AOS |
+| **Icons** | React Icons |
+| **Hosting** | Netlify / Vercel |
+| **Version Control** | Git, GitHub |
+
+---
+
+##  Screenshots  
+
+###  Home Page  
+[https://i.ibb.co.com/qMjfsHCk/Screenshot-2025-10-17-141231.png]
+
+### Feature Projects Page  
+[https://i.ibb.co.com/r2dcyvgK/Screenshot-2025-10-24-132707.png]
+
+###  Responsive View  
+[https://i.ibb.co.com/4nPfF0Sf/Screenshot-2025-10-24-132843.png]
+
+---
+
+## Key Features
+
+** Fully responsive design
+
+** Modern UI using Tailwind CSS
+
+** Smooth animations and transitions
+
+** Project details with live preview & GitHub link
+
+---
+
+## Contact
+
+** Email: habibaislammim@gmail.com
+
+** Location: Khilgaon, Dhaka, Bangladesh
+
+---
+
+## ⚙️ Setup Instructions  
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/Umme-Habiba123/my-portfolio.git
+
+# Go to the project folder
+cd my-portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+
+Acknowledgements
+Special thanks to my mentors, teachers, and online resources for helping me grow as a developer.
