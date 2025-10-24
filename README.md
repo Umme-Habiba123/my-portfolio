@@ -6,7 +6,7 @@ This site reflects my dedication to clean design, modern UI, and powerful React-
 ---
 
 ##  Live Demo  
-🔗 [Visit My Portfolio](https://your-portfolio-link.netlify.app/)  
+🔗 [ https://my-portfolio-b9a85c.netlify.app/ ] 
 *(Replace this with your live link)*
 
 ---
@@ -37,13 +37,13 @@ Main sections include:
 ##  Screenshots  
 
 ###  Home Page  
-[https://i.ibb.co.com/qMjfsHCk/Screenshot-2025-10-17-141231.png]
+[ https://i.ibb.co.com/qMjfsHCk/Screenshot-2025-10-17-141231.png ]
 
 ### Feature Projects Page  
-[https://i.ibb.co.com/r2dcyvgK/Screenshot-2025-10-24-132707.png]
+[ https://i.ibb.co.com/r2dcyvgK/Screenshot-2025-10-24-132707.png ]
 
 ###  Responsive View  
-[https://i.ibb.co.com/4nPfF0Sf/Screenshot-2025-10-24-132843.png]
+[ https://i.ibb.co.com/4nPfF0Sf/Screenshot-2025-10-24-132843.png ]
 
 ---
 
