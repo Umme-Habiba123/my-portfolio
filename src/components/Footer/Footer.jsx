@@ -1,5 +1,7 @@
 import { RiGithubLine } from "react-icons/ri";
 import { SlSocialLinkedin } from "react-icons/sl";
+import { LuFacebook } from "react-icons/lu";
+
 import { CgMail } from "react-icons/cg";
 
 export default function Footer() {
@@ -28,6 +30,10 @@ export default function Footer() {
      </a>
      <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox">
        <p className="mt-1"><CgMail /></p>
+     </a>
+     <a target="_blank" href="https://www.facebook.com/mahiya.rahman.540132">
+       <p className="mt-1"><LuFacebook />
+</p>
      </a>
      </div>
     </div>
