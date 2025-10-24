@@ -15,10 +15,10 @@ This site reflects my dedication to clean design, modern UI, and powerful React-
 
 This is my portfolio website where I share my work, skills, and contact information.  
 Main sections include:
-- 🏠 **Home:** Introduction and hero section  
-- 💼 **Projects:** My featured projects with details  
-- 🧠 **Skills:** Technologies I know and use  
-- 📞 **Contact:** Contact info and social links  
+-  **Home:** Introduction and hero section  
+-  **Projects:** My featured projects with details  
+-  **Skills:** Technologies I know and use  
+-  **Contact:** Contact info and social links  
 
 ---
 
@@ -67,7 +67,7 @@ Main sections include:
 
 ---
 
-## ⚙️ Setup Instructions  
+##  Setup Instructions  
 
 To run this project locally:
 
